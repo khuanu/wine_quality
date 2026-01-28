@@ -88,4 +88,5 @@ if st.button("🔮 Predict Wine Quality"):
     if prediction[0] == 1:
         st.success("🍾 Good Quality Wine")
     else:
+
         st.error("❌ Bad Quality Wine")
